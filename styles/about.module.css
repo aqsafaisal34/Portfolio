@@ -1,0 +1,80 @@
+.about{
+    width: 100%;
+    margin:20px  0 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+
+}
+.text{
+    margin: auto 0;
+}
+.text p{
+    margin: 10px  0;
+}
+.description p{
+   margin: 10px  0;
+   /* font-size: 1.3rem; */
+}
+.img{
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+}
+.hello{
+    color: rgb(104, 166, 205);
+    /* font-size: 1.3rem; */
+    font-weight: bold;
+}
+.name{
+    font-size: larger;
+    font-weight: bold;
+}
+.profession{
+    font-size: large;
+    font-weight: bold;
+}
+.abouttwo{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutme{
+    color: rgb(104, 166, 205);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.details{
+    font-size: 1.3rem;
+}
+.imgtwo{
+    border-radius: 50%;
+}
+@media screen and (max-width:645px) {
+    .img{
+        width: 300px;
+        margin-top: 10px;
+    }
+    .about{
+       flex-direction: column;
+       align-items: center;
+    }
+    .imgtwo{
+        display: none;
+    }
+    .abouttwo{
+       display: block;
+       text-align: center;
+    }
+    .aboutme{
+       text-align: center;
+       margin-top: 15px;
+    }
+    
+}
+@media screen and (max-width:550px) {
+ .about, .description p{
+    font-size: unset;
+ }
+}

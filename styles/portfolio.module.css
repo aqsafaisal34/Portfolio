@@ -1,0 +1,29 @@
+.heading {
+  color: rgb(104, 166, 205);
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 300px;
+  height: 320px;
+  text-align: center;
+  margin: 20px;
+  padding:3px;
+}
+.card:hover{
+  box-shadow: 2px 2px 1px 1px grey;
+}
+.cardimage {
+  width: 100%;
+  height: 200px;
+}
+.link{
+  color: rgb(35, 69, 88);
+}
