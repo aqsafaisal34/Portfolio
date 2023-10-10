@@ -27,3 +27,8 @@
    width: 100%;
    height: 150px;
 }
+@media screen and (max-width:320px) {
+    .card{
+        height: auto;
+    }
+}

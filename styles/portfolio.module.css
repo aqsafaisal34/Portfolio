@@ -27,3 +27,8 @@
 .link{
   color: rgb(35, 69, 88);
 }
+@media screen and (max-width:320px) {
+  .card{
+      height: auto;
+  }
+}
