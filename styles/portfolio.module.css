@@ -12,10 +12,10 @@
   border: 1px solid black;
   border-radius: 5px;
   width: 300px;
-  height: 320px;
+  height: auto;
   text-align: center;
   margin: 20px;
-  padding:3px;
+  padding:5px;
 }
 .card:hover{
   box-shadow: 2px 2px 1px 1px grey;
@@ -27,8 +27,18 @@
 .link{
   color: rgb(35, 69, 88);
 }
-@media screen and (max-width:320px) {
-  .card{
-      height: auto;
-  }
+.button{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:  center;
+}
+.btn{
+   background-color: rgb(104, 166, 205);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin: 5px;
 }
